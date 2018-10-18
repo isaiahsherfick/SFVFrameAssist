@@ -16,6 +16,7 @@ public class MAIN
 
 		//Initialize character data
 		Akuma akuma = new Akuma();
+		Alex alex = new Alex();
 
 		//infinite loop
 		while (true)
@@ -43,6 +44,8 @@ public class MAIN
 						case "akuma":
 							displayFrameData(akuma);
 							break;
+						case "alex":
+							displayFrameData(alex);
 						default:
 							System.out.printf("Sorry, %s's data has not been added to this program yet.\n",userString);
 							break;
